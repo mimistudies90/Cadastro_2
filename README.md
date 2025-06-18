@@ -55,7 +55,7 @@ Clone o repositório:
 bash
 Copiar
 Editar
-git clone https://github.com/mimistudies90/Sistema-de-Login2.git
+git clone https://github.com/mimistudies90/Cadastro_2.git
 Importe o banco de dados:
 
 Use o phpMyAdmin ou o MySQL para importar o arquivo sistema_login.sql.
@@ -73,8 +73,7 @@ private $username = 'root';
 private $password = '(A senha do seu banco)';
 Acesse o sistema:
 
-Execute o servidor local (como XAMPP) e acesse http://localhost/Sistema_Login/public/login.php.
-
+Execute o servidor local (como XAMPP) e acesse http : http://localhost/Cadastro/public/cadastro.php
 ## 4 Estrutura do Banco de Dados 
 
 
