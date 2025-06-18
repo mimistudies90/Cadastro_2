@@ -18,29 +18,32 @@ Data de Início:
 
 ## 2 Estrutura do Projeto
 
+# 📋 Sistema de Login - Documentação
+
+## 🏗️ Estrutura do Projeto
 Cadastro/
 │
 ├── config/
-│ └── Database.php # Configurações do banco de dados
+│ └── Database.php # Configurações de conexão com o banco
 │
 ├── models/
-│ ├── Usuario.php # Entidade Usuário
-│ └── UsuarioDAO.php # Operações com o banco
+│ ├── Usuario.php # Classe de entidade do usuário
+│ └── UsuarioDAO.php # Camada de acesso a dados
 │
 ├── public/
-│ ├── cadastro.php # Página de cadastro
-│ ├── criar_user.php # Processa cadastro
+│ ├── cadastro.php # Formulário de cadastro
+│ ├── criar_user.php # Processamento do cadastro
 │ ├── index.php # Página inicial
-│ ├── login.php # Página de login
-│ └── process_login.php # Valida credenciais
+│ ├── login.php # Formulário de login
+│ └── process_login.php # Autenticação
 │
 ├── utils/
-│ ├── Sanit.php # Limpeza de dados
-│ ├── SenhaValida.php # Validador de senha
-│ └── ver-senha.php # Utilitário (dev)
+│ ├── Sanit.php # Filtragem de inputs
+│ ├── SenhaValida.php # Validação de política de senhas
+│ └── ver-senha.php # Ferramenta de desenvolvimento
 │
-├── CriarBanco.txt # Guia de setup
-└── sistema_login.sql # Script SQL completo
+├── CriarBanco.txt # Manual de instalação
+└── sistema_login.sql # DDL completo
 
 ## 3 Configuração do Ambiente ### **Requisitos**
     • Servidor XAMP
