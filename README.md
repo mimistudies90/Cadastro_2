@@ -1,8 +1,6 @@
-# Cadastro_2
-
-# Sistema-de-Login
+# Sistema-de-Cadastro
 1. Introdução
-Nome do Projeto: Sistema_Login
+Nome do Projeto: Cadastrop
 
 ## 1 Introdução
 O Sistema_Login é uma aplicação simples desenvolvida em PHP com MySQL que permite autenticação de usuários. Ele serve como base para sistemas maiores, garantindo que apenas usuários cadastrados possam acessar áreas protegidas do sistema.
@@ -10,17 +8,16 @@ O Sistema_Login é uma aplicação simples desenvolvida em PHP com MySQL que per
 Tecnologias Utilizadas:
 PHP, MySQL, HTML,, Visual Studio Code
 
-Autores:Júlia Carla do Carmo Júlio , Maria Cecília da Conceição Pinto
-Responsável: Paula Maria da Rocha Celidorio
+Autores:Pietra Massarotti e Maria Cecília da Conceição Pinto
+
 
 Data de Início:
-06/06/2025
+16/06/2025
 
 ## 2 Estrutura do Projeto
 
-# 📋 Sistema de Login - Documentação
 
-## 🏗️ Estrutura do Projeto
+## Estrutura do Projeto
 Cadastro/
 │
 ├── config/
@@ -71,23 +68,27 @@ php
 Copiar
 Editar
 private $host = 'localhost';
-private $db_name = 'nome_do_banco';
+private $db_name = 'sistema_login';
 private $username = 'root';
-private $password = '';
+private $password = '(A senha do seu banco)';
 Acesse o sistema:
 
 Execute o servidor local (como XAMPP) e acesse http://localhost/Sistema_Login/public/login.php.
 
 ## 4 Estrutura do Banco de Dados 
 
-  CREATE DATABASE sistema_login;
+
+CREATE DATABASE sistema_login;
 USE sistema_login;
--- Cria a tabela de usuários
+
+
 CREATE TABLE usuarios (
     id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
     senha_hash VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
--- Insere um usuário de exemplo (senha = 'senha123')
+
 INSERT INTO usuarios (email, senha_hash) 
+VALUES ('usuario@exemplo.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
