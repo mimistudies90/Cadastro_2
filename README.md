@@ -21,26 +21,26 @@ Data de Início:
 Cadastro/
 │
 ├── config/
-│ └── Database.php # Configurações de conexão com o banco
+│   └── Database.php             # Configurações de conexão com o banco de dados
 │
 ├── models/
-│ ├── Usuario.php # Classe de entidade do usuário
-│ └── UsuarioDAO.php # Camada de acesso a dados
+│   ├── Usuario.php              # Modelo/Entidade Usuário
+│   └── UsuarioDAO.php           # Data Access Object para operações com usuários
 │
 ├── public/
-│ ├── cadastro.php # Formulário de cadastro
-│ ├── criar_user.php # Processamento do cadastro
-│ ├── index.php # Página inicial
-│ ├── login.php # Formulário de login
-│ └── process_login.php # Autenticação
+│   ├── cadastro.php             # Página de cadastro de usuários
+│   ├── criar_user.php           # Script para criação de usuários (provavelmente processa o formulário de cadastro)
+│   ├── index.php                # Página inicial
+│   ├── login.php                # Página de login
+│   └── process_login.php        # Script para processar o login
 │
 ├── utils/
-│ ├── Sanit.php # Filtragem de inputs
-│ ├── SenhaValida.php # Validação de política de senhas
-│ └── ver-senha.php # Ferramenta de desenvolvimento
+│   ├── Sanit.php                # Utilitários para sanitização de dados
+│   ├── SenhaValida.php          # Utilitário para validação de senhas
+│   └── ver-senha.php            # Utilitário para visualização de senhas (provavelmente para debug)
 │
-├── CriarBanco.txt # Manual de instalação
-└── sistema_login.sql # DDL completo
+├── CriarBanco.txt               # Instruções para criação do banco de dados
+└── sistema_login.sql            # Script SQL para criação da estrutura do banco de dados
 
 ## 3 Configuração do Ambiente ### **Requisitos**
     • Servidor XAMP
