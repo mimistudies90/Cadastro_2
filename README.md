@@ -80,7 +80,7 @@ Execute o servidor local (como XAMPP) e acesse http : http://localhost/Cadastro/
 1.Execute normalmente o dump do banco de dados no seu servidor.
 
 2.No navegador, acesse o arquivo recriptografar_senhas.php.
-(Exemplo: http://Cadastro/utils/ver_senha.php)
+(Exemplo: http://Cadastro_2/utils/ver_senha.php)
 
 2.O script irá percorrer todos os usuários do banco, gerar novos hashes para as senhas e atualizar os dados.
 
