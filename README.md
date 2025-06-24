@@ -113,6 +113,19 @@ Este processo deve ser realizado sempre que você importar o banco de dados a pa
 
 Isso garante que o sistema de login funcione corretamente, pois os hashes estarão compatíveis com o seu servidor.
 
+# Senha & Hash
+
+Nome:			E-mail: 		Senha: 		Hash:
+
+Pietra Massarotti	pietra@email 		Pietra21 	$10$CziSg7NdfJVlaBJe0vrTuu1g400FMKuLrJzF1QdgsSu3VUi1e9/b.
+Maria Cecília		maria@email 		MariaC12 	$2y$10$cFA3Ybrq5M1A6glexP1Ij.CXZWFXc4hd6.WUDVr5F0ZqCf.TeSyO2
+Pedro Augusto 		pedro@gmail 		Pedro457 	$10$eaPk9NdIbqBSgiN6uHv4UeZtX21AIFLdNnuSQ0ofdo9v1r5K9.Ga6
+Júlia Carla 		julinha@hotmail 	Julinha19 	$2y$10$BJSruAQp6CY9dnFZCCtMh./Fk2r7ivtXiEQW6P7dosVN/VKMY8kE.
+Henry Gabriel 		henry@gmail 		Henry231 	$2y$10$qPx/aHJF5xWbHxKPHEvB3.aDk7wGJHQgaysJ1u2.EWCgVm2P/HE92
+Teste 			    teste@email 		Teste12345 	$10$fgxX52GBZ.mUdGCPff/xH.sRemXfCBQA.WweWpcoQbzmypURpCbWu
+
+
+
 
 
 
