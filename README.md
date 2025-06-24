@@ -35,7 +35,7 @@ Cadastro/
 │   └── process_login.php        # Script para processar o login
 │
 ├── utils/
-│   ├── Sanit.php                # Utilitários para sanitização de dados
+│   ├── Sanitizacao.php          # Utilitários para sanitização de dados
 │   ├── SenhaValida.php          # Utilitário para validação de senhas
 │   └── ver-senha.php            # Utilitário para visualização de senhas (provavelmente para debug)
 │
@@ -76,7 +76,18 @@ Acesse o sistema:
 
 Execute o servidor local (como XAMPP) e acesse http : http://localhost/Cadastro/public/cadastro.php
 
-# Como abrir o Banco de Dados.
+# Como executar o processo de recriptografia:
+1.Execute normalmente o dump do banco de dados no seu servidor.
+
+2.No navegador, acesse o arquivo recriptografar_senhas.php.
+(Exemplo: http://localhost/seu_projeto/recriptografar_senhas.php)
+
+2.O script irá percorrer todos os usuários do banco, gerar novos hashes para as senhas e atualizar os dados.
+
+3.Após concluir, o sistema estará com as senhas funcionando corretamente no seu servidor.
+
+
+
 
 
 
