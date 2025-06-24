@@ -14,9 +14,6 @@ Autores:Pietra Massarotti e Maria Cecília da Conceição Pinto
 Data de Início:
 16/06/2025
 
-## 2 Estrutura do Projeto
-
-
 ## Estrutura do Projeto
 Cadastro/
 │
