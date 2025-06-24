@@ -69,8 +69,20 @@ Copiar
 Editar
 private $host = 'localhost';
 private $db_name = 'sistema_login';
+
 private $username = 'root';
 private $password = '(A senha do seu banco)';
 Acesse o sistema:
 
 Execute o servidor local (como XAMPP) e acesse http : http://localhost/Cadastro/public/cadastro.php
+
+# Como abrir o Banco de Dados.
+
+
+
+
+
+
+
+
+
