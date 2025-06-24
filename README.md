@@ -74,20 +74,3 @@ private $password = '(A senha do seu banco)';
 Acesse o sistema:
 
 Execute o servidor local (como XAMPP) e acesse http : http://localhost/Cadastro/public/cadastro.php
-## 4 Estrutura do Banco de Dados 
-
-
-CREATE DATABASE sistema_login;
-USE sistema_login;
-
-
-CREATE TABLE usuarios (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nome VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL UNIQUE,
-    senha_hash VARCHAR(255) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-INSERT INTO usuarios (email, senha_hash) 
-VALUES ('usuario@exemplo.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
