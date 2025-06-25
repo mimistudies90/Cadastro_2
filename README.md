@@ -83,13 +83,12 @@ Passo a Passo do Processo
 No final desse README estão as senhas dos usuários em texto puro, exclusivamente para facilitar o processo de recriptografia.
 
 2 – Gere os Novos Hashes no Seu Servidor
-Abra no navegador o arquivo ver_senha.php.
-(Exemplo: http://localhost/Cadastro/utils/ver_senha.php)
+Abra no Visual Studio Code o arquivo ver_senha.php que está na pasta utils.
 
 Este arquivo irá:
 🔸 Ler as senhas.
 🔸 Gerar novos hashes utilizando password_hash(), agora no seu servidor, com a configuração e ambiente específicos.
-🔸 Exibir na tela os hashes atualizados prontos para uso.
+🔸 Exibir no terminal os hashes atualizados prontos para uso.
 
 3 – Substituir os Hashes no Dump do Banco
 Abra o arquivo dump.sql em um editor de texto.
