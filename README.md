@@ -85,6 +85,7 @@ Passo a Passo do Processo
 No final desse README estão as senhas dos usuários em texto puro, exclusivamente para facilitar o processo de recriptografia.
 
 2 – Gere os Novos Hashes no Seu Servidor
+
 Abra no Visual Studio Code o arquivo ver-senha.php que está na pasta utils.
 
 Mude o valor da variável $senha com a senha que deseja criptografar.
@@ -98,6 +99,7 @@ Este arquivo irá:
 🔸 Exibir na tela os hashes atualizados prontos para uso.
 
 3 – Substituir os Hashes no Dump do Banco
+
 Abra o arquivo dump.sql em um editor de texto.
 
 Localize os hashes antigos (as senhas criptografadas que vieram no dump).
@@ -105,15 +107,19 @@ Localize os hashes antigos (as senhas criptografadas que vieram no dump).
 Substitua cada hash antigo pelo novo hash gerado no seu servidor, mantendo a correspondência correta com cada usuário.
 
 4 – Importar o Dump Atualizado
+
 Após substituir os hashes no dump, importe o banco de dados atualizado no seu servidor normalmente.
 
 O sistema estará funcionando corretamente, com as senhas criptografadas de acordo com seu ambiente.
 
 5 – Segurança Após o Processo
+
 Após finalizar o processo, é altamente recomendado:
+
 🔸 Garanta que esses arquivos não fiquem acessíveis publicamente, evitando riscos de segurança.
 
 Observação Importante
+
 Este processo deve ser realizado sempre que você importar o banco de dados a partir do dump em um novo servidor ou ambiente.
 
 Isso garante que o sistema de login funcione corretamente, pois os hashes estarão compatíveis com o seu servidor.
