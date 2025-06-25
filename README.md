@@ -79,7 +79,9 @@ O sistema utiliza criptografia de senha para garantir a segurança dos dados dos
 Por isso, é necessário recriptografar as senhas no seu próprio ambiente, garantindo que o sistema funcione corretamente no seu servidor.
 
 Passo a Passo do Processo
+
 1 – Acesse as Senhas Originais
+
 No final desse README estão as senhas dos usuários em texto puro, exclusivamente para facilitar o processo de recriptografia.
 
 2 – Gere os Novos Hashes no Seu Servidor
@@ -88,7 +90,7 @@ Abra no Visual Studio Code o arquivo ver-senha.php que está na pasta utils.
 Mude o valor da variável $senha com a senha que deseja criptografar.
 
 Abra o arquivo no seu navegador.
-Exemplo(http://localhost/Cadastro/utils/ver-senha.php)
+Exemplo(http://localhost/Cadastro_2/utils/ver-senha.php)
 
 Este arquivo irá:
 🔸 Ler as senhas.
